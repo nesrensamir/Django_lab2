@@ -1,0 +1,17 @@
+{% extends 'movies/base_layout.html' %}
+
+{% block layout_block %}
+
+<div class="container">
+    <div class="card">
+                <div class="card-title">
+                    {{movie.name}}
+                </div>
+                <div>{{movie.description}}</div>
+                <div>{{movie.likes}}</div>
+                <div>{{movie.watch_count}}</div>
+
+            </div>
+</div>
+
+{% endblock %}
